@@ -1,0 +1,21 @@
+#page-preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  z-index: 100500;
+}
+#page-preloader .spinner {
+  width: 128px;
+  height: 15px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background: url('../img/spinner.gif') no-repeat 50% 50%;
+  margin: -7px 0 0 -69px;
+}
+img {
+  width: 100%;
+}
